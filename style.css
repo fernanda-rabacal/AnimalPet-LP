@@ -333,7 +333,7 @@ body.menu-expanded button {
   width: 100%;
   padding-block: 4rem;
   
-  margin-inline: auto; /* margin-left e margin-right */
+  margin-inline: auto; 
   
   background-color: var(--brand-beige);
 
@@ -481,29 +481,22 @@ body.menu-expanded button {
 }
 
 iframe{
+  width: 40rem;
   border-radius: 2rem;
 }
 
 /* --------FOOTER----------------------------*/
 footer {
   background-color: var(--primary-color);
-  padding-block: 6rem;
-  
   color: white;
-  
   text-align: left;
-  
+  padding-block: 2rem;
 }
 
-
-footer .logo {
-  display: inline-block;
-  margin-bottom: 2.4rem;
-}
-
-footer .logo svg {
-  width: 23.6rem;
-  height: 3.1rem;
+footer .infos {
+  display: flex;
+  justify-content: space-between;
+  gap: 27rem;
 }
 
 footer .logo {
@@ -515,15 +508,13 @@ footer .logo {
 footer p {
   color: var(--brand-beige);
   line-height: 2;
-  margin-bottom: 3.2rem;
 }
 
 footer .social-links {
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    gap: 3.2rem;
-  
+    gap: 3.2rem;  
   }
 
 /* --------BACK TO TOP --------------------------*/
@@ -563,10 +554,6 @@ footer .social-links {
   }
   .col-b {
     grid-area: B;
-  }
-
-  section {
-    padding-block: 16rem;
   }
 
   section header h2 {
@@ -713,7 +700,7 @@ footer .social-links {
   }
 
   #home .wrapper {
-    grid-template-columns: 58rem 1fr;
+    grid-template-columns: 56rem 1fr;
     grid-template-areas: 
     'A B'
     'C C';
@@ -729,8 +716,7 @@ footer .social-links {
 
   #home .col-a {
     text-align: left;
-    align-self: center;
-    
+    align-self: center;   
   }
 
 
@@ -758,7 +744,6 @@ footer .social-links {
 
   #home img {
     height: 37.2rem;
-
   }
 
   /* -------SERVICES------*/
@@ -820,9 +805,16 @@ footer .social-links {
   #contact .content .button {
     margin: 0
   }
+
+  iframe {
+    grid-area: B;
+    width: 45rem;
+    height: 40rem;
+    margin-left: 3rem;
+  }
    /* ------- FOOTER ------*/
   footer {
-    padding-block: 8rem;
+    padding-block: 2rem;
   }
 
   footer .wrapper {
