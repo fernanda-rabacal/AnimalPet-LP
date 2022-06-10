@@ -4,11 +4,11 @@
 
 🇺🇸 This is a project made on the Rocketseat NLW Return event, where i adapted for the AnimalPet petshop landing page. I included the testimonials section. The page has a responsive menu made for mobiles and a navegation menu which responds to the local where the page is. 
 
-### Status: In progress 🚧
+### Status: Done ✔️ 
 O projeto está sendo refeito em Reactjs
 
 ## Skills 🧰
-<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"> <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E">
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"> <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E"> <img src="https://img.shields.io/badge/reveal.js-F2E142?style=for-the-badge&logo=reveal.js&logoColor=000" />
 
 ### Made with 🔨
 
